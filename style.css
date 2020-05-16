@@ -1,5 +1,5 @@
 body {
-	background-color: #f2eeed ;
+	background-color: #b8afae ;
 }
 
 ul {
@@ -7,7 +7,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: rgb(216, 34, 34);
   }
   
   li {
@@ -18,13 +18,13 @@ ul {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 25px 16px;
+	padding: 25px 70px;
 	text-decoration: none;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-	background-color: #111;
+	background-color:#b8afae;
   }
   .active {
 	background-color: #4CAF50;
@@ -126,4 +126,10 @@ ul {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.heading{
+  
+
+	font-size: 20;
 }
